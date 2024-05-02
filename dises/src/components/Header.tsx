@@ -6,13 +6,15 @@ import MenuIcon from '@mui/icons-material/Menu';
 
 interface Props {
   window?: () => Window;
+  handlePageChange: (newString: string) => void;
+  currentPage: string;
 }
 
 const drawerWidth = 240;
-const navItems = ['Home', 'About', 'Contact'];
+const navItems = ['Home', 'About', 'Team', 'Contact'];
 
-export default function DrawerAppBar(props: Props) {
-  const { window } = props;
+export default function Header(props: Props) {
+  const { window, handlePageChange, currentPage } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
   const handleDrawerToggle = () => {
@@ -28,7 +30,7 @@ export default function DrawerAppBar(props: Props) {
       <List>
         {navItems.map((item) => (
           <ListItem key={item} disablePadding>
-            <ListItemButton sx={{ textAlign: 'center' }}>
+            <ListItemButton sx={{ textAlign: 'center' }} onClick = {() => handlePageChange(item)} >
               <ListItemText primary={item} />
             </ListItemButton>
           </ListItem>
@@ -39,14 +41,35 @@ export default function DrawerAppBar(props: Props) {
 
   const container = window !== undefined ? () => window().document.body : undefined;
 
+
   return (
     <Box sx={{ display: 'flex'}}>
-      <AppBar position="static">
+      <AppBar position="static" style={{backgroundColor: "#ffffff"}} color="primary">
         <Grid container justifyContent="center">
-            <Grid item xs={12} xl={8}>
+            <Grid item xs={12} xl={10}>
                 <Toolbar>
+                
+                <Typography
+                    variant="h4"
+                    component="div"
+                    color="primary"
+                    sx={{ flexGrow: 1, display: { xs: 'block', sm: 'block' } }}
+                >
+                    DISES
+                </Typography>
+                <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
+                    {navItems.map((item) => (
+                    <Button 
+                        key={item} 
+                        sx={{ color: 'primary', fontWeight: currentPage === item ? "bold" : "normal" }} 
+                        onClick = {() => handlePageChange(item)}
+                        >
+                        {item}
+                    </Button>
+                    ))}
+                </Box>
                 <IconButton
-                    color="inherit"
+                    color="primary"
                     aria-label="open drawer"
                     edge="start"
                     onClick={handleDrawerToggle}
@@ -54,20 +77,6 @@ export default function DrawerAppBar(props: Props) {
                 >
                     <MenuIcon />
                 </IconButton>
-                <Typography
-                    variant="h6"
-                    component="div"
-                    sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
-                >
-                    DISES
-                </Typography>
-                <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
-                    {navItems.map((item) => (
-                    <Button key={item} sx={{ color: '#fff' }}>
-                        {item}
-                    </Button>
-                    ))}
-                </Box>
                 </Toolbar>
             </Grid>
         </Grid>

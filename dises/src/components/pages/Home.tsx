@@ -19,10 +19,6 @@ export default function Home() {
 
     return (
         <Grid container direction="column">
-            {/* Header */}
-            <Grid item>
-              <Header />
-            </Grid>
             {/* Title Picture */}
             <Grid item>
               <FeaturedImage post={featuredImage} />
@@ -30,7 +26,7 @@ export default function Home() {
             {/* Basic Project Description */}
             <Grid item pb={5}>
               <Grid container direction="row" justifyContent="center" alignItems="center">
-                <Grid item xs={12} md={5} xl={4}>
+                <Grid item xs={12} md={10} lg={5} xl={4}>
                   <Typography component="h2" variant="h3" pl={4}>
                     Project Aims
                   </Typography>
@@ -51,7 +47,7 @@ export default function Home() {
                     
                   </Box>
                 </Grid>
-                <Grid item xs={12} md={5} xl = {4}>
+                <Grid item xs={12} md={10} lg={7} xl = {6}>
                   <Grid container justifyContent="center">
                     <Box 
                       component="img"
