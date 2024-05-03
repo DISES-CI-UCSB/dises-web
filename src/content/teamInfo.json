@@ -1,44 +1,46 @@
+
+
 [
     {
         "name": "Amy Frazier",
         "title": "PI",
         "description": "Amy Frazier is the PI for the DISES project and a Professor and the Jack and Laura Dangermond Chair in Conservation Science at the University of California, Santa Barbara. Her research sits at the nexus of landscape ecology, remote sensing, and spatial data science/spatial planning to develop data, tools and methods needed to advance conservation science and decision-making.",
-        "imagePath": "../../../photos/team/amyfrazier.jpg",
+        "imagePath": "src/content/photos/team/amyfrazier.jpg",
         "links": ["https://www.frazierlab.org"]
     },
     {
         "name": "Liz Sanders",
         "title": "Co-Design Lead",
         "description": "Liz Sanders is known for her pioneering work in design research and co-design practices. Liz leads MakeTools, LLC where she explores new spaces in the emerging co-design landscapes. She is also a faculty member in the Design Department at The Ohio State University. She is now focused on bringing co-design practices to disciplines beyond design in order to address the significant social, cultural and environmental challenges we face for the future. Her role on the DISES project is to lead the co-design efforts.",
-        "imagePath": "../../../photos/team/lizsanders.jpg",
+        "imagePath": "src/content/photos/team/lizsanders.jpg",
         "links": ["https://design.osu.edu/people/sanders.82"]
     },
     {
         "name": "Wenxin Yang",
         "title": "PhD",
         "description": "Wenxin Yang is a PhD student of Geography at the University of California, Santa Barbara. Her research interests are leveraging geospatial analytics for biodiversity conservation and open spatial data science.",
-        "imagePath": "../../../photos/team/wenxinyang.jpg",
+        "imagePath": "src/content/photos/team/wenxinyang.jpg",
         "links": ["https://wxyang007.github.io/"]
     },
     {
         "name": "Nick McManus",
         "title": "Associate Scientist",
         "description": "Nick McManus is an Associate Scientist at Conservation International, where his work focuses on integrated land use planning under climate change. On the DISES team, he acts as a researcher and project coordinator. Nick received his Masters in Environmental Science & Management from UC Santa Barbara in 2023.",
-        "imagePath": "../../../photos/team/nickmcmanus.jpg",
+        "imagePath": "src/content/photos/team/nickmcmanus.jpg",
         "links": ["https://github.com/n-mcmanus"]
     },
     {
         "name": "Amy Frazier",
         "title": "PI",
         "description": "Amy Frazier is the PI for the DISES project and a Professor and the Jack and Laura Dangermond Chair in Conservation Science at the University of California, Santa Barbara. Her research sits at the nexus of landscape ecology, remote sensing, and spatial data science/spatial planning to develop data, tools and methods needed to advance conservation science and decision-making.",
-        "imagePath": "../../../photos/team/amyfrazier.jpg",
+        "imagePath": "src/content/photos/team/amyfrazier.jpg",
         "links": ["https://www.frazierlab.org"]
     },
     {
         "name": "Amy Frazier",
         "title": "PI",
         "description": "Amy Frazier is the PI for the DISES project and a Professor and the Jack and Laura Dangermond Chair in Conservation Science at the University of California, Santa Barbara. Her research sits at the nexus of landscape ecology, remote sensing, and spatial data science/spatial planning to develop data, tools and methods needed to advance conservation science and decision-making.",
-        "imagePath": "../../../photos/team/amyfrazier.jpg",
+        "imagePath": "src/content/photos/team/amyfrazier.jpg",
         "links": ["https://www.frazierlab.org"]
     }
     

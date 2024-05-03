@@ -1,10 +1,11 @@
 import React from 'react'
 import { Grid, Box, Typography} from '@mui/material'
 
-import Header from '../Header'
 import FeaturedImage from '../FeaturedImage'
 
 import theme from '../../theme'
+import workshopUrl from '../../content/photos/workshop.jpg'
+import ucsbLogoUrl from '../../content/photos/ucsb_logo.png'
 
 
 export default function Home() {
@@ -56,7 +57,7 @@ export default function Home() {
                         width:"90%",
                         height: "auto"
                       }}
-                      src='../../../photos/workshop.jpg' />
+                      src={workshopUrl} />
                     
                   </Grid>
                   
@@ -99,7 +100,7 @@ export default function Home() {
                         width:"200px",
                         height: "auto"
                       }}
-                      src='../../../photos/ucsb_logo.png' />
+                      src={ucsbLogoUrl} />
 
                     
                   </Grid>
