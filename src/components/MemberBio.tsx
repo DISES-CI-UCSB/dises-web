@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import { Grid, Typography, Box, Link } from "@mui/material";
 
 interface Props {
@@ -6,7 +6,7 @@ interface Props {
         name: string;
         title: string;
         description: string;
-        imagePath: string;
+        image: string;
         links: Array<string>;
     }
     
@@ -15,19 +15,27 @@ interface Props {
 export default function MemberBio(props: Props) {
 
     const { details } = props
+    const [imagePath, setImagePath] = useState(null)
 
+    useEffect(() => {
+        import(`../content/photos/team/${details.image}`).then((image) => {
+            setImagePath(image.default)
+        })
+    })
 
     return (
         <Grid item xs={12} sm={8} md={4} lg={3} m={5}>
             <Grid container direction="column" >
                 {/* image */}
-                <Box 
+                {imagePath !== null && (
+                    <Box 
                     component="img"
                     mb = {2}
                     sx = {{
                         width:"100%",
                         height: "auto"}}
-                    src = {details.imagePath} />
+                    src = {imagePath} />
+                )}
                 
                 {/* name */}
                 <Typography component="h4" variant="h4" align="center" mb={2}>
@@ -42,7 +50,7 @@ export default function MemberBio(props: Props) {
                 {/* links  */}
                 <Typography component="h6" variant="h6" align="left">
                     {details.links.map((link) => (
-                        <Link href={link} underline="hover" target="_blank" rel="noreferrer">{link}</Link>
+                        <Link id={link} href={link} underline="hover" target="_blank" rel="noreferrer">{link}</Link>
                         ))}
                 </Typography>
                 
