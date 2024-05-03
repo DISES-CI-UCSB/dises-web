@@ -5,13 +5,6 @@ import teamMembers from "../../../content/teamInfo.json"
 
 import MemberBio from "../MemberBio";
 
-const amy = {
-    name: "Amy Frazier",
-    title: "PI",
-    description: "Amy Frazier is the PI for the DISES project and a Professor and the Jack and Laura Dangermond Chair in Conservation Science at the University of California, Santa Barbara. Her research sits at the nexus of landscape ecology, remote sensing, and spatial data science/spatial planning to develop data, tools and methods needed to advance conservation science and decision-making.",
-    imagePath: "../../../photos/team/amyfrazier.jpg",
-    links: ["https://www.frazierlab.org"],
-}
 
 export default function Team() {
 
@@ -53,7 +46,9 @@ export default function Team() {
             <Container maxWidth="xl" disableGutters={true}>
             
                 <Grid container direction="row" justifyContent="center">
-
+                    {/* <Grid item xs={12} sm={8} md={9} lg={9} m={5}>
+                        <Typography variant='h3'>The DISES Team</Typography>
+                    </Grid> */}
                     {teamMembers.map((member) => (
                         <MemberBio details={member} />
                     ))}

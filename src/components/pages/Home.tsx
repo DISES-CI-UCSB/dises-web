@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid, Box, Typography, SvgIcon } from '@mui/material'
+import { Grid, Box, Typography} from '@mui/material'
 
 import Header from '../Header'
 import FeaturedImage from '../FeaturedImage'
@@ -36,7 +36,7 @@ export default function Home() {
                     >
                     <Typography component="h4" variant="h5" mb={4}>
                       DISES addresses the need to balance human livelihoods and biodiversity conservation in Colombia, one of the world's biodiversity hotspots. 
-                      As human-caused climate change threatens ecosystems and species, we aim to develop integrated land use solutions through co-design, bridging the gap between scientists and decision-makers. 
+                      As global change threatens ecosystems and species, we aim to develop integrated land use solutions through co-design, bridging the gap between scientists and decision-makers. 
                       By partnering with the Alexander Von Humboldt Biological Resources Institute, we will co-design scientific models of land use planning under future climate scenarios and improve decision-making capacity. 
                       Through workshops and iterative collaboration, we will prioritize national land use strategies that protect biodiversity while meeting human needs, ensuring a sustainable future for Colombia's ecosystems and communities.
                     </Typography>
