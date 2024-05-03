@@ -1,9 +1,20 @@
 import React from "react";
 import { Grid, Container, Paper, Box, Typography } from '@mui/material'
 
+// import all photos
+import amyfrazier from '../../content/photos/team/amyfrazier.jpg'
+import lizsanders from '../../content/photos/team/lizsanders.jpg'
+import nickmcmanus from '../../content/photos/team/nickmcmanus.jpg'
+import wenxinyang from '../../content/photos/team/wenxinyang.jpg'
+
+const teamPhotos = {
+    "Amy Frazier": amyfrazier,
+    "Liz Sanders": lizsanders,
+    "Nick McManus": nickmcmanus,
+    "Wenxin Yang": wenxinyang
+}
+
 import teamMembers from '../../content/teamInfo.json'
-
-
 import MemberBio from "../MemberBio";
 
 
@@ -51,7 +62,7 @@ export default function Team() {
                         <Typography variant='h3'>The DISES Team</Typography>
                     </Grid> */}
                     {teamMembers.map((member) => (
-                        <MemberBio details={member} />
+                        <MemberBio details={member} imagePath={teamPhotos[member.name]} />
                     ))}
                 </Grid>
             </Container>
