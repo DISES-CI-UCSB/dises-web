@@ -27,8 +27,9 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "deploy" : "gh-pages -d dist"
   },
+  "homepage": "https://dises-ci-ucsb.github.io/dises/",
   "eslintConfig": {
     "extends": [
       "react-app",

@@ -1,7 +1,8 @@
 import React from "react";
 import { Grid, Container, Paper, Box, Typography } from '@mui/material'
 
-import teamMembers from "../../../content/teamInfo.json"
+import teamMembers from '../../content/teamInfo.json'
+
 
 import MemberBio from "../MemberBio";
 
