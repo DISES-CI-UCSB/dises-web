@@ -7,10 +7,10 @@ import Box from '@mui/material/Box';
 
 interface FeaturedImageProps {
   post: {
-    description: string;
+    description?: string;
     image: string;
     imageText: string;
-    title: string;
+    title?: string;
   };
 }
 
@@ -33,6 +33,7 @@ export default function FeaturedImage(props: FeaturedImageProps) {
     >
       {/* Increase the priority of the hero background image */}
       {<img style={{ display: 'none' }} src={post.image} alt={post.imageText} />}
+      {post.title && (
       <Box
         sx={{
           position: 'absolute',
@@ -43,7 +44,9 @@ export default function FeaturedImage(props: FeaturedImageProps) {
           backgroundColor: 'rgba(0,0,0,.3)',
         }}
       />
-      <Grid container>
+      )}
+      {post.title && (
+        <Grid container>
         <Grid item md={6}>
           <Box
             sx={{
@@ -52,15 +55,22 @@ export default function FeaturedImage(props: FeaturedImageProps) {
               pr: { md: 0 },
             }}
           >
-            <Typography component="h1" variant="h1" color="inherit" gutterBottom>
-              {post.title}
-            </Typography>
-            <Typography variant="h4" color="inherit" paragraph>
-              {post.description}
-            </Typography>
+            
+          <Typography component="h1" variant="h1" color="inherit" gutterBottom>
+            {post.title}
+          </Typography>
+            
+            
+          <Typography variant="h4" color="inherit" paragraph>
+            {post.description}
+          </Typography>
+           
+            
           </Box>
         </Grid>
       </Grid>
+      )}
+      
     </Paper>
   );
 }
