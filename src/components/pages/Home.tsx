@@ -13,7 +13,7 @@ export default function Home() {
     const featuredImage = {
         title: 'DISES',
         description:
-          "Decision Making for Land Use Planning",
+          "Dynamics of Integrated Socio-Ecological Systems",
         image: 'https://www.muchbetteradventures.com/magazine/content/images/2023/12/GettyImages-610410404--1--1.jpg',
         imageText: 'main image description'
       };
@@ -81,8 +81,7 @@ export default function Home() {
                   <Box component="section" p = {4}>
                     <Typography align="left" component="h4" variant="h5" width="100%">
                       This project is a collaboration between institutions and organizations across the United States and Colombia. 
-                      Collaborators from United States include members from Conservation International USA, UC Santa Barbara, The Ohio State University, and Arizona State Univeristy. 
-                      Our Colombian collaborators are members from the Alexander Von Humboldt Biological Resources Institute, ______, and _____.
+                      Collaborators include members from Conservation International USA, UC Santa Barbara, The Ohio State University, Arizona State Univeristy, and Alexander Von Humboldt Biological Resources Institute. 
                     </Typography>
                     </Box>
                   </Grid>
