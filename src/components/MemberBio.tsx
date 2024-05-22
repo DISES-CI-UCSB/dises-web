@@ -18,7 +18,7 @@ export default function MemberBio(props: Props) {
     const { details, imagePath } = props
     return (
         <Grid item xs={12} sm={8} md={4} lg={3} m={5} key={details.name}>
-            <Grid container direction="column" >
+            <Grid container direction="column">
                 {/* image */}               
                 <Box 
                 component="img"

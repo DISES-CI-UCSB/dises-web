@@ -1,11 +1,16 @@
 import React from 'react'
 import { Grid, Box, Typography} from '@mui/material'
 
-import FeaturedImage from '../FeaturedImage'
+import FeaturedImage from './FeaturedImage'
 
 import theme from '../../theme'
 import workshopUrl from '../../content/photos/workshop.jpg'
-import ucsbLogoUrl from '../../content/photos/ucsb_logo.png'
+import disesGoals from '../../content/photos/figures/dises_goals.jpg'
+import ucsbLogo from '../../content/photos/logos/ucsb_logo.png'
+import nsfLogo from '../../content/photos/logos/nsf_logo.png'
+import asuLogo from '../../content/photos/logos/asu_logo.png'
+import humboldtLogo from '../../content/photos/logos/humboldt_logo.png'
+import ciLogo from '../../content/photos/logos/ci_logo.png'
 
 
 export default function Home() {
@@ -18,11 +23,13 @@ export default function Home() {
         imageText: 'main image description'
       };
 
+      const logos = [ucsbLogo, asuLogo, ciLogo, humboldtLogo, nsfLogo]
+
     return (
         <Grid container direction="column">
             {/* Title Picture */}
             <Grid item>
-              <FeaturedImage post={featuredImage} />
+              <FeaturedImage post={featuredImage} main={true} />
             </Grid>
             {/* Basic Project Description */}
             <Grid item pb={5}>
@@ -57,7 +64,7 @@ export default function Home() {
                         width:"90%",
                         height: "auto"
                       }}
-                      src={workshopUrl} />
+                      src={disesGoals} />
                     
                   </Grid>
                   
@@ -68,7 +75,7 @@ export default function Home() {
             </Grid>
             {/* Collaborators */}
             <Grid item pb={5} pt={5} sx={{backgroundColor: theme.palette.secondary.light}}>
-              <Grid container direction="column" justifyContent="center">
+              <Grid container direction="row" justifyContent="center">
                 <Grid item>
                   <Typography align="center" component="h2" variant="h3">
                     Collaborators
@@ -89,19 +96,18 @@ export default function Home() {
                     
                   
                 </Grid>
-                <Grid item xs={12} md={6} xl={4}>
-                  <Grid container justifyContent="center">
-         
-                  <Box 
-                      component="img"
-                      padding={2}
-                      sx = {{
-                        width:"200px",
-                        height: "auto"
-                      }}
-                      src={ucsbLogoUrl} />
+                <Grid item xs={12} md={6} xl={8} pt={8}>
+                  <Grid container justifyContent="space-evenly" alignItems="center" columnGap={6} rowGap={3}>
+                    {logos.map((logo) => (
+                      <Grid item >
+                        <Box 
+                        component="img"
+                        className='logos'
+                        
+                        src={logo} />
+                        </Grid>
+                    ))}
 
-                    
                   </Grid>
                   
                 </Grid>

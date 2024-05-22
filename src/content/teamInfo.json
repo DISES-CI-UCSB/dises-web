@@ -37,11 +37,18 @@
         "links": ["https://github.com/n-mcmanus"]
     },
     {
-        "name": "Amy Frazier",
-        "title": "PI",
-        "description": "Amy Frazier is the PI for the DISES project and a Professor and the Jack and Laura Dangermond Chair in Conservation Science at the University of California, Santa Barbara. Her research sits at the nexus of landscape ecology, remote sensing, and spatial data science/spatial planning to develop data, tools and methods needed to advance conservation science and decision-making.",
-        "image": "amyfrazier.jpg",
-        "links": ["https://www.frazierlab.org"]
+        "name": "Joana Krieger",
+        "title": "Associate Scientist",
+        "description": "Joana is an Associate Scientist in Climate-Smart Planning at the Moore Center for Science. Specializing in sustainable land use, her expertise lies in Integrated Spatial Planning for conserving and restoring natural areas. Her work focuses on crafting analytical frameworks to maximize benefits for biodiversity and Nature's Contribution to People (NCP), while also considering socio-economic outcomes. Joana ensures her contributions are forward-thinking and impactful by incorporating projections of Global Changes to navigate evolving environmental challenges.",
+        "image": "joanakrieger.jpg",
+        "links": []
+    },
+    {
+        "name": "Dan Willett",
+        "title": "GIS Developer",
+        "description": "Dan is a GIS Developer at the University of California, Santa Barbara. He develops tools and web interfaces for visualizing and analyzing geospatial data. Dan is creating a tool that will help the DISES team visualize and understand the costs and benefits of our land use model prioritizations.",
+        "image": "danwillett.jpg",
+        "links": ["https://github.com/danwillett"]
     }
     
 ]
