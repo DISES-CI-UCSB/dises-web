@@ -17,7 +17,8 @@ const theme = createTheme({
             light: '#e8f5e9',
             main: '#4caf50',
             dark:'#1b5e20'
-        }
+        },
+        
     },
     typography: {
         fontFamily: [
@@ -48,6 +49,15 @@ const theme = createTheme({
         },
         
     },
+    // breakpoints: {
+    //     values: {
+    //         xs: 0,
+    //         sm: 600,
+    //         md: 900,
+    //         lg: 1200,
+    //         xl: 1700,
+    //       },
+    // }
 });
 
 export default theme

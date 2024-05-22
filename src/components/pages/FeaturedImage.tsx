@@ -12,16 +12,23 @@ interface FeaturedImageProps {
     imageText: string;
     title?: string;
   };
+  main: boolean
 }
 
 export default function FeaturedImage(props: FeaturedImageProps) {
-  const { post } = props;
+  const { post, main } = props;
+
+  let height = "50vh"
+  if (!main) {
+    height = "30vh"
+  }
+
 
   return (
     <Paper
       sx={{
         position: 'relative',
-        height: '50vh',
+        height: {height},
         backgroundColor: 'grey.800',
         color: '#fff',
         mb: 5,

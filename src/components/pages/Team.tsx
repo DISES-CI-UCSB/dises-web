@@ -6,12 +6,16 @@ import amyfrazier from '../../content/photos/team/amyfrazier.jpg'
 import lizsanders from '../../content/photos/team/lizsanders.jpg'
 import nickmcmanus from '../../content/photos/team/nickmcmanus.jpg'
 import wenxinyang from '../../content/photos/team/wenxinyang.jpg'
+import joanakrieger from '../../content/photos/team/joanakrieger.jpg'
+import danwillett from '../../content/photos/team/danwillett.jpg'
 
 const teamPhotos = {
     "Amy Frazier": amyfrazier,
     "Liz Sanders": lizsanders,
     "Nick McManus": nickmcmanus,
-    "Wenxin Yang": wenxinyang
+    "Wenxin Yang": wenxinyang,
+    "Joana Krieger": joanakrieger,
+    "Dan Willett": danwillett
 }
 
 import teamMembers from '../../content/teamInfo.json'
@@ -56,15 +60,32 @@ export default function Team() {
             
             
             <Container maxWidth="xl" disableGutters={true}>
-            
-                <Grid container direction="row" justifyContent="center">
-                    {/* <Grid item xs={12} sm={8} md={9} lg={9} m={5}>
-                        <Typography variant='h3'>The DISES Team</Typography>
-                    </Grid> */}
-                    {teamMembers.map((member) => (
-                        <MemberBio details={member} imagePath={teamPhotos[member.name]} />
-                    ))}
+
+                <Grid container direction="column">
+                {/* sx={{backgroundColor: theme.palette.secondary.light}} */}
+                <Grid item py={4} alignContent="center">
+                    <Grid container direction="row" justifyContent="space-evenly" alignItems="center" >
+                        <Grid item xs={10} sm={6} md={6} lg={4} py={8} mt={4}>
+                            <Typography variant="h2" align="center">
+                                Meet the DISES Team
+                            </Typography>
+                        </Grid>
+                        
+                        
+                    </Grid>
                 </Grid>
+
+                <Grid item>
+                    <Grid container direction="row" justifyContent="center">
+                        {teamMembers.map((member) => (
+                            <MemberBio details={member} imagePath={teamPhotos[member.name]} />
+                        ))}
+                    </Grid>
+                </Grid>
+
+                </Grid>
+            
+                
             </Container>
             
             
