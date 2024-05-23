@@ -41,7 +41,7 @@ export default function MemberBio(props: Props) {
                 {/* links  */}
                 <Typography component="h6" variant="h6" align="left">
                     {details.links.map((link) => (
-                        <Link key={link} href={link} underline="hover" target="_blank" rel="noreferrer">{link}</Link>
+                        <Link key={link} href={link} underline="hover" target="_blank" rel="noreferrer" color="primary.light">{link}</Link>
                         ))}
                 </Typography>
                 
