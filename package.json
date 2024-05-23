@@ -1,5 +1,5 @@
 {
-  "name": "dises",
+  "name": "dises-web",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -29,7 +29,7 @@
     "predeploy" : "npm run build",
     "deploy" : "gh-pages -d dist"
   },
-  "homepage": "https://dises-ci-ucsb.github.io/dises/",
+  "homepage": "https://DISES-CI-UCSB.github.io/dises-web/",
   "eslintConfig": {
     "extends": [
       "react-app",
