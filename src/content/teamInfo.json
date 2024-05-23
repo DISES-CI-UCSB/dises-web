@@ -23,6 +23,13 @@
         "links": ["https://design.osu.edu/people/sanders.82"]
     },
     {
+        "name": "Caitlin Drummond Otten",
+        "title": "Co-Design Professor",
+        "description": "Caitlin Drummond Otten is Assistant Professor of Decision Science at Arizona State University.  Her research focuses on how people understand and engage with scientific evidence, with a special focus on how evidence can inform environmental and sustainability-related decisions. Caitlin’s role on the DISES team focuses on evaluating the co-design process and outputs to better understand how co-designed information impacts environmental decision-making.",
+        "image": "caitlindrummonotten.jpg",
+        "links": ["https://search.asu.edu/profile/3727008 "]
+    },
+    {
         "name": "Wenxin Yang",
         "title": "PhD",
         "description": "Wenxin Yang is a PhD student of Geography at the University of California, Santa Barbara. Her research interests are leveraging geospatial analytics for biodiversity conservation and open spatial data science.",
@@ -49,6 +56,14 @@
         "description": "Dan is a GIS Developer at the University of California, Santa Barbara. He develops tools and web interfaces for visualizing and analyzing geospatial data. Dan is creating a tool that will help the DISES team visualize and understand the costs and benefits of our land use model prioritizations.",
         "image": "danwillett.jpg",
         "links": ["https://github.com/danwillett"]
+    },
+    {
+        "name": "Lei Song",
+        "title": "Post Doc",
+        "description": "Lei Song is a Postdoctoral Scholar at the University of California, Santa Barbara. She studies species conservation and human-wildlife relations using remote sensing, GIS, and statistical modeling. Lei’s role on the DISES project focuses on land use modeling.",
+        "image": "leisong.jpg",
+        "links": ["https://lleisong.github.io/website/"]
     }
+    
     
 ]
