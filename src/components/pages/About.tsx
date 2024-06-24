@@ -69,21 +69,16 @@ export default function About() {
                             
                             
                             <Box component="section" px={4}>
-                                {/* <Typography variant='h6' my={2}>
-                                The future of livelihoods and ecosystems on Earth are at an inflection point.
-                                Millions of species face the threat of extinction due to human-caused climate change, and some scientist suggest we’ve already entered a mass extinction event.
-                                Planetary warming will result in redistribution of life on Earth, increasing conflicts over land use. 
-                                At this critical juncture, we must find a way to simultaneously meet the energy and food demands of a growing population while conserving land to protect ecosystems and biodiversity. 
-                                </Typography> */}
+                                
 
                                 <Typography variant='h6' my={2}>
-                                Over the past several decades, a global community of governments, indigenous groups, and NGOs have agreed to meet sustainable land use goals to mitigate the effects of climate change; however, few of these targets have been met as we face mounting challenges. 
-                                The Convention on Biological Diversity’s (CBD) Aichi Target 11 aimed to protect 17% of terrestrial land by 2020; despite the fact only 25% of countries have met this goal, the CBD’s post-2020 Global Biodiversity Framework recommends protecting 30% of the planet by 2030. 
-                                Additionally, recent reports indicate countries are not on track to meet the 2016 Paris Agreement’s emission goals, with “no credible pathway” to limit average planetary warming to 1.5°C.
-                                Although the scientific community has worked to better understand biosphere processes, there is a clear disconnect at national and regional levels between forecasting and action. 
+                                Over the past several decades, a global community of governments, indigenous groups, and NGOs have agreed to meet sustainable land use goals 
+                                to mitigate the effects of climate change; however, few of these targets have been met as we face mounting challenges.
+                                Co-design offers a path forward in bridging the gap between scientists and decision makers through collaboration and knowledge exchange. 
+                                In Colombia, there is an urgent need to adopt policies that protect both human livelihoods and biodiversity. 
                                 </Typography>
 
-                                <Typography variant="h6" my={2}>
+                                {/* <Typography variant="h6" my={2}>
                                 Co-design offers a path toward bridging this gap between scientists and decision makers through collaboration and knowledge exchange. 
                                 In Colombia, there is an urgent need to adopt policies that protect both human livelihoods and biodiversity. 
                                 Colombia is the second most biodiverse country in the world and home to rare ecosystems.
@@ -103,7 +98,7 @@ export default function About() {
                                             <strong>Improve the decision-making capacity of groups and organizations by empirically assessing the effectiveness of co-design for engaged research</strong> and assessing the nuanced natural and social priorities that decision makers must consider as they weigh how to protect the planet as well as advance human lives and livelihoods.
                                         </Typography>
                                     </li>
-                                </ol>
+                                </ol> */}
                             </Box>
 
                         </Grid>
@@ -136,10 +131,16 @@ export default function About() {
                                 
                                 <Grid item xs={12} sm={11} md={6} lg={7} my={4}>
                                     <Typography variant='h3'>
-                                        Land Use Model Co-Design
+                                        What is co-design?
                                     </Typography> 
 
                                     <Typography variant='h6' my={2}>
+
+                                    By partnering with the Humboldt Institute in Colombia, this project aims to build upon existing scientific models and communities of practice to co-design integrated land use solutions that are politically salient.
+
+                                    </Typography>
+
+                                    {/* <Typography variant='h6' my={2}>
                                         Co-designing the national land use prioritization model will comprise the computational bulk of the project. 
                                         An essential component of the co-design process will be helping to develop and maintain a Community of Practice where organize a series of co-design workshops with stakeholders and other community members.
                                         Feedback and conversations from these workshops will inform the specific goals, tasks, and analyses for the national land use prioritization model.
@@ -170,7 +171,7 @@ export default function About() {
                                                 Incorporate projections of biodiversity, connectivity, renewable energy, and agriculture, along with co-benefits, into a national spatial prioritization. 
                                             </Typography>
                                         </li>
-                                    </ul>
+                                    </ul> */}
                                 </Grid>
                                 <Grid item xs={10} sm={8} md={6} lg={5}>
                                     <Grid container justifyContent="center" alignItems="center">

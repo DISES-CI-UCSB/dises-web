@@ -10,6 +10,7 @@ import joanakrieger from '../../content/photos/team/joanakrieger.jpg'
 import danwillett from '../../content/photos/team/danwillett.jpg'
 import caitlindrummondotten from "../../content/photos/team/caitlindrummondotten.jpg"
 import leisong from "../../content/photos/team/leisong.jpg"
+import gabrieldaldegan from "../../content/photos/team/gabrieldaldegan.jpg"
 
 const teamPhotos = {
     "Amy Frazier": amyfrazier,
@@ -21,6 +22,7 @@ const teamPhotos = {
     "Caitlin Drummond Otten": caitlindrummondotten,
     "Dan Willett": danwillett,
     "Lei Song": leisong,
+    "Gabriel Antunes Daldegan": gabrieldaldegan
 }
 
 import teamMembers from '../../content/teamInfo.json'
@@ -75,14 +77,42 @@ export default function Team() {
                                 Meet the DISES Team
                             </Typography>
                         </Grid>
+
+                        <Grid item xs={10} sm={9} md={9} lg={9} mb={8}>
+                            <Typography variant="h4" align="center">
+                            Our team comprises of researchers from various institutions and disciplines, each bringing unique insight and experience to our collaborative project. Learn more about their work below.
+                            </Typography>
+                        </Grid>
                         
                         
                     </Grid>
                 </Grid>
 
                 <Grid item>
+                    
+                    <Grid container direction="row" justifyContent="center" mb={3}>
+
+                        <Grid item xs={11} >
+                            <Typography variant="h3" mb={2}>
+                            Leadership
+                            </Typography>
+                            {/* <hr style={{ width: '95%', borderTop: '1px solid #333'}} /> */}
+                        </Grid>
+
+                        {teamMembers.filter((member) => member.leadership).map((member) => (            
+                            <MemberBio details={member} imagePath={teamPhotos[member.name]} />
+                        ))}
+                    </Grid>
+
                     <Grid container direction="row" justifyContent="center">
-                        {teamMembers.map((member) => (
+
+                        <Grid item xs={11} >
+                            <Typography variant="h3" mb={2}>
+                            Everyone else
+                        </Typography>
+                        </Grid>
+
+                        {teamMembers.filter((member) => !member.leadership).map((member) => (            
                             <MemberBio details={member} imagePath={teamPhotos[member.name]} />
                         ))}
                     </Grid>
