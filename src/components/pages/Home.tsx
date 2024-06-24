@@ -88,7 +88,7 @@ export default function Home() {
                   <Box component="section" p = {4}>
                     <Typography align="left" component="h4" variant="h5" width="100%">
                       This project is a collaboration between institutions and organizations across the United States and Colombia. 
-                      Collaborators include members from Conservation International USA, UC Santa Barbara, The Ohio State University, Arizona State Univeristy, and Alexander Von Humboldt Biological Resources Institute. 
+                      Collaborators include members from Conservation International USA, UC Santa Barbara, The Ohio State University, Arizona State University, and Alexander Von Humboldt Biological Resources Institute. 
                     </Typography>
                     </Box>
                   </Grid>
