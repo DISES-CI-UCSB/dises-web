@@ -11,7 +11,7 @@ import society_conservation from '../../content/photos/figures/society_conservat
 import colombia_landscape from '../../content/photos/colombia_landscape.jpg'
 
 
-export default function About() {
+export default function Projects() {
     const landscape_image = {
         image: colombia_landscape,
         imageText: "colombia agricultural landscape",
@@ -289,7 +289,7 @@ export default function About() {
                     </ol>
                 </Grid> */}
             </Grid>
-            </Grid>
+                </Grid>
             </Grid>
 
     )
