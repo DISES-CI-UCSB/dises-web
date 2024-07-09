@@ -3,7 +3,7 @@
 [
     {
         "name": "Amy Frazier",
-        "title": "Co-PI",
+        "title": "Professor",
         "organization": "UC Santa Barbara",
         "description": "Amy Frazier is the PI for the DISES project and a Professor and the Jack and Laura Dangermond Chair in Conservation Science at the University of California, Santa Barbara. Her research sits at the nexus of landscape ecology, remote sensing, and spatial data science/spatial planning to develop data, tools and methods needed to advance conservation science and decision-making.",
         "image": "amyfrazier.jpg",
@@ -12,30 +12,30 @@
     },
     {
         "name": "Patrick Roehrdanz",
-        "title": "Co-PI",
+        "title": "Director, Climate Change and Biodiversity",
         "organization": "Conservation International",
         "description": "Patrick is the director of climate change and biodiversity in Conservation International's Moore Center for Science, where he examines how to effectively conserve the world’s biodiversity as species and ecosystems respond to a changing climate. Patrick’s work focuses on integrated spatial planning, which considers projections of climate change and land use to inform decision making for conservation alongside productive and mixed-use landscapes. Patrick also has expertise in biodiversity informatics, biogeography, ecosystem services modeling and climate change vulnerability assessments.  He serves as the co-lead for the  biodiversity hub of the Science Based Targets Network, a group of organizations working to shape private sector impacts on nature by using science-based targets. ",
-        "image": "amyfrazier.jpg",
-        "links": ["https://www.frazierlab.org"],
+        "image": "patrickroehrdanz.jpg",
+        "links": [],
         "leadership": true
     },
     {
         "name": "Liz Sanders",
-        "title": "Co-Design Lead",
+        "title": "Professor, Founder of MakeTools",
         "organization": "Ohio State University",
         "description": "Liz Sanders is known for her pioneering work in design research and co-design practices. Liz leads MakeTools, LLC where she explores new spaces in the emerging co-design landscapes. She is also a faculty member in the Design Department at The Ohio State University. She is now focused on bringing co-design practices to disciplines beyond design in order to address the significant social, cultural and environmental challenges we face for the future. Her role on the DISES project is to lead the co-design efforts.",
         "image": "lizsanders.jpg",
         "links": ["https://design.osu.edu/people/sanders.82"],
-        "leadership": true
+        "leadership": false
     },
     {
         "name": "Caitlin Drummond Otten",
-        "title": "Co-Design Professor",
+        "title": "Assistant Professor",
         "organization": "Arizona State University",
         "description": "Caitlin Drummond Otten is Assistant Professor of Decision Science at Arizona State University.  Her research focuses on how people understand and engage with scientific evidence, with a special focus on how evidence can inform environmental and sustainability-related decisions. Caitlin’s role on the DISES team focuses on evaluating the co-design process and outputs to better understand how co-designed information impacts environmental decision-making.",
         "image": "caitlindrummonotten.jpg",
         "links": ["https://search.asu.edu/profile/3727008 "],
-        "leadership": false
+        "leadership": true
     },
     {
         "name": "Wenxin Yang",
@@ -53,7 +53,7 @@
         "description": "Nick McManus is an Associate Scientist at Conservation International, where his work focuses on integrated land use planning under climate change. On the DISES team, he acts as a researcher and project coordinator. Nick received his Masters in Environmental Science & Management from UC Santa Barbara in 2023.",
         "image": "nickmcmanus.jpg",
         "links": ["https://github.com/n-mcmanus"],
-        "leadership": false
+        "leadership": true
     },
     {
         "name": "Joana Krieger",
@@ -75,7 +75,7 @@
     },
     {
         "name": "Lei Song",
-        "title": "Post Doc Reseracher",
+        "title": "Postdoctoral Research Scholar",
         "organization": "UC Santa Barbara",
         "description": "Lei Song is a Postdoctoral Scholar at the University of California, Santa Barbara. She studies species conservation and human-wildlife relations using remote sensing, GIS, and statistical modeling. Lei’s role on the DISES project focuses on land use modeling.",
         "image": "leisong.jpg",
@@ -90,6 +90,15 @@
         "image": "gabrieldaldegan.jpg",
         "links": [],
         "leadership": false
+    },
+    {
+        "name": "Gwen Iacona",
+        "title": "Program Lead, Center for Biodiversity Outcomes",
+        "organization": "Arizona State University",
+        "description": "Gwen Iacona is an Assistant Research Professor in the School of Life Sciences at Arizona State University and the Assistant Director of the Center for Biodiversity Outcomes. Her research agenda focuses on understanding and improving the ways that conservation decision makers achieve the biodiversity outcomes they are aiming for. She brings this agenda to the DISES project to assist in guiding the work so that it results in decision support that has conservation impact.",
+        "image": "gweniacona.jpg",
+        "links": ["https://scholar.google.com/citations?user=QH7HkMQAAAAJ&hl=en"],
+        "leadership": true
     }
     
     

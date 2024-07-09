@@ -11,18 +11,21 @@ import danwillett from '../../content/photos/team/danwillett.jpg'
 import caitlindrummondotten from "../../content/photos/team/caitlindrummondotten.jpg"
 import leisong from "../../content/photos/team/leisong.jpg"
 import gabrieldaldegan from "../../content/photos/team/gabrieldaldegan.jpg"
+import patrickroehrdanz from "../../content/photos/team/patrickroehrdanz.jpg"
+import gweniacona from "../../content/photos/team/gweniacona.jpg"
 
 const teamPhotos = {
     "Amy Frazier": amyfrazier,
-    "Patrick Roehrdanz": amyfrazier,
+    "Patrick Roehrdanz": patrickroehrdanz,
     "Liz Sanders": lizsanders,
+    "Gwen Iacona": gweniacona,
     "Nick McManus": nickmcmanus,
     "Wenxin Yang": wenxinyang,
     "Joana Krieger": joanakrieger,
     "Caitlin Drummond Otten": caitlindrummondotten,
     "Dan Willett": danwillett,
     "Lei Song": leisong,
-    "Gabriel Antunes Daldegan": gabrieldaldegan
+    "Gabriel Antunes Daldegan": gabrieldaldegan,
 }
 
 import teamMembers from '../../content/teamInfo.json'

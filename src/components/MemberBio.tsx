@@ -49,7 +49,7 @@ export default function MemberBio(props: Props) {
                 {details.name}
                 </Typography>
 
-                <Typography component="h5" variant="h5" align="center" mb={0}>
+                <Typography component="h5" variant="h5" align="center" mb={0} fontStyle="italic">
                 {details.title}
                 </Typography>
                 
@@ -75,20 +75,27 @@ export default function MemberBio(props: Props) {
             </Grid>
             <Modal
                 open={open}
-                onClose={() => setOpen(false)}    
+                onClose={() => setOpen(false)}
+                sx = {{
+                    height: '100%',
+                    overflow:'scroll',
+                    position:'absolute',
+
+                }}    
             >
-                <Card sx={{minWidth: "350px", maxWidth: "1400px", width: "70vw", position: "absolute", top: "50%", left: "50%", transform: 'translate(-50%, -50%)'}} >
+                <Card sx={{minWidth: "300px",  maxHeight: "100%", overflow:'scroll', maxWidth: "1400px", width: "70vw", position: "absolute", top: "50%", left: "50%", transform: 'translate(-50%, -50%)'}} >
 
                     <CardContent>
                         <Grid container direction="row" justifyContent="space-around">
                             {/* image */}  
 
-                            <Grid item xs={12} sm={9} md={7} lg={4} p="2vw" alignSelf="center" justifySelf="center">
+                            <Grid item xs={12} sm={9} md={7} lg={5} p="2vw" alignSelf="center" justifySelf="center">
                                 <Box 
                                     component="img"
                                     sx = {{
                                         width:"100%",
                                         height: "auto",
+                                        border: 1,
                                         
                                         }}
                                     src = {imagePath} /> 

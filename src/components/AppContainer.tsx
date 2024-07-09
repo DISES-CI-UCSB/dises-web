@@ -3,7 +3,7 @@ import { Grid, Container } from '@mui/material'
 
 import Home from './pages/Home'
 import Team from './pages/Team'
-import About from './pages/About'
+import Projects from './pages/Projects'
 
 import Header from './Header'
 
@@ -16,8 +16,8 @@ export default function AppContainer() {
             return <Home />
         } else if (currentPage === 'Team') {
             return <Team />
-        } else if (currentPage === 'About'){
-            return <About />
+        } else if (currentPage === 'Projects'){
+            return <Projects />
         }
     }
 

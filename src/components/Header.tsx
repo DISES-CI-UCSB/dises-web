@@ -11,7 +11,7 @@ interface Props {
 }
 
 const drawerWidth = 240;
-const navItems = ['Home', 'About', 'Team', 'Contact'];
+const navItems = ['Home', 'Projects', 'Team', 'Contact'];
 
 export default function Header(props: Props) {
   const { window, handlePageChange, currentPage } = props;
@@ -24,7 +24,7 @@ export default function Header(props: Props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        DISES
+        ECO-PLAN
       </Typography>
       <Divider />
       <List>
@@ -55,7 +55,7 @@ export default function Header(props: Props) {
                     color="primary"
                     sx={{ flexGrow: 1, display: { xs: 'block', sm: 'block' } }}
                 >
-                    DISES
+                    ECO-PLAN
                 </Typography>
                 <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
                     {navItems.map((item) => (
