@@ -4,7 +4,7 @@ import { Grid, Container } from '@mui/material'
 import Home from './pages/Home'
 import Team from './pages/Team'
 import Projects from './pages/Projects'
-
+import Footer from './Footer'
 import Header from './Header'
 
 export default function AppContainer() {
@@ -29,6 +29,7 @@ export default function AppContainer() {
             {/* Header */}
             <Header currentPage ={currentPage} handlePageChange={handlePageChange}/>
             {renderPage()}
+            <Footer setCurrentPage={setCurrentPage} />
         </Container>
     )
 }

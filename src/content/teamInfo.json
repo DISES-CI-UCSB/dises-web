@@ -20,6 +20,33 @@
         "leadership": true
     },
     {
+        "name": "Caitlin Drummond Otten",
+        "title": "Assistant Professor",
+        "organization": "Arizona State University",
+        "description": "Caitlin Drummond Otten is Assistant Professor of Decision Science at Arizona State University.  Her research focuses on how people understand and engage with scientific evidence, with a special focus on how evidence can inform environmental and sustainability-related decisions. Caitlin’s role on the DISES team focuses on evaluating the co-design process and outputs to better understand how co-designed information impacts environmental decision-making.",
+        "image": "caitlindrummonotten.jpg",
+        "links": ["https://search.asu.edu/profile/3727008 "],
+        "leadership": true
+    },
+    {
+        "name": "Gwen Iacona",
+        "title": "Program Lead, Center for Biodiversity Outcomes",
+        "organization": "Arizona State University",
+        "description": "Gwen Iacona is an Assistant Research Professor in the School of Life Sciences at Arizona State University and the Assistant Director of the Center for Biodiversity Outcomes. Her research agenda focuses on understanding and improving the ways that conservation decision makers achieve the biodiversity outcomes they are aiming for. She brings this agenda to the DISES project to assist in guiding the work so that it results in decision support that has conservation impact.",
+        "image": "gweniacona.jpg",
+        "links": ["https://scholar.google.com/citations?user=QH7HkMQAAAAJ&hl=en"],
+        "leadership": true
+    },
+    {
+        "name": "Susana Rodriguez-Buritica",
+        "title": "Research Scientist",
+        "organization": "Instituto Humboldt",
+        "description": "More details coming soon!",
+        "image": "susanarodriguezburitica.jpg",
+        "links": [],
+        "leadership": false
+    },
+    {
         "name": "Liz Sanders",
         "title": "Professor, Founder of MakeTools",
         "organization": "Ohio State University",
@@ -29,13 +56,13 @@
         "leadership": false
     },
     {
-        "name": "Caitlin Drummond Otten",
-        "title": "Assistant Professor",
-        "organization": "Arizona State University",
-        "description": "Caitlin Drummond Otten is Assistant Professor of Decision Science at Arizona State University.  Her research focuses on how people understand and engage with scientific evidence, with a special focus on how evidence can inform environmental and sustainability-related decisions. Caitlin’s role on the DISES team focuses on evaluating the co-design process and outputs to better understand how co-designed information impacts environmental decision-making.",
-        "image": "caitlindrummonotten.jpg",
-        "links": ["https://search.asu.edu/profile/3727008 "],
-        "leadership": true
+        "name": "Elkin Noguera-Urbano",
+        "title": "Scientific Researcher",
+        "organization": "Instituto Humboldt",
+        "description": "More details coming soon!",
+        "image": "elkinnogueraurbano.jpg",
+        "links": [],
+        "leadership": false
     },
     {
         "name": "Wenxin Yang",
@@ -90,15 +117,6 @@
         "image": "gabrieldaldegan.jpg",
         "links": [],
         "leadership": false
-    },
-    {
-        "name": "Gwen Iacona",
-        "title": "Program Lead, Center for Biodiversity Outcomes",
-        "organization": "Arizona State University",
-        "description": "Gwen Iacona is an Assistant Research Professor in the School of Life Sciences at Arizona State University and the Assistant Director of the Center for Biodiversity Outcomes. Her research agenda focuses on understanding and improving the ways that conservation decision makers achieve the biodiversity outcomes they are aiming for. She brings this agenda to the DISES project to assist in guiding the work so that it results in decision support that has conservation impact.",
-        "image": "gweniacona.jpg",
-        "links": ["https://scholar.google.com/citations?user=QH7HkMQAAAAJ&hl=en"],
-        "leadership": true
     }
     
     
