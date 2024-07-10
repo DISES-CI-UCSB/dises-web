@@ -13,6 +13,8 @@ import leisong from "../../content/photos/team/leisong.jpg"
 import gabrieldaldegan from "../../content/photos/team/gabrieldaldegan.jpg"
 import patrickroehrdanz from "../../content/photos/team/patrickroehrdanz.jpg"
 import gweniacona from "../../content/photos/team/gweniacona.jpg"
+import elkinnogueraurbano from "../../content/photos/team/elkinnogueraurbano.jpg"
+import susanarodriguezburitica from "../../content/photos/team/susanarodriguezburitica.jpg"
 
 const teamPhotos = {
     "Amy Frazier": amyfrazier,
@@ -26,6 +28,8 @@ const teamPhotos = {
     "Dan Willett": danwillett,
     "Lei Song": leisong,
     "Gabriel Antunes Daldegan": gabrieldaldegan,
+    "Elkin Noguera-Urbano": elkinnogueraurbano,
+    "Susana Rodriguez-Buritica": susanarodriguezburitica
 }
 
 import teamMembers from '../../content/teamInfo.json'
@@ -95,30 +99,28 @@ export default function Team() {
                     
                     <Grid container direction="row" justifyContent="center" mb={3}>
 
-                        <Grid item xs={11} >
+                        {/* <Grid item xs={11} >
                             <Typography variant="h3" mb={2}>
                             Leadership
                             </Typography>
-                            {/* <hr style={{ width: '95%', borderTop: '1px solid #333'}} /> */}
-                        </Grid>
-
-                        {teamMembers.filter((member) => member.leadership).map((member) => (            
+                            
+                        </Grid> */}
+                        {teamMembers.map((member) => (            
                             <MemberBio details={member} imagePath={teamPhotos[member.name]} />
                         ))}
+                        {/* {teamMembers.filter((member) => member.leadership).map((member) => (            
+                            <MemberBio details={member} imagePath={teamPhotos[member.name]} />
+                        ))} */}
                     </Grid>
 
-                    <Grid container direction="row" justifyContent="center">
+                    {/* <Grid container direction="row" justifyContent="center">
 
-                        <Grid item xs={11} >
-                            <Typography variant="h3" mb={2}>
-                            Everyone else
-                        </Typography>
-                        </Grid>
+                        
 
                         {teamMembers.filter((member) => !member.leadership).map((member) => (            
                             <MemberBio details={member} imagePath={teamPhotos[member.name]} />
                         ))}
-                    </Grid>
+                    </Grid> */}
                 </Grid>
 
                 </Grid>

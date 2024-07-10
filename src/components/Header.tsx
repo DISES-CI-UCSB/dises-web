@@ -11,7 +11,7 @@ interface Props {
 }
 
 const drawerWidth = 240;
-const navItems = ['Home', 'Projects', 'Team', 'Contact'];
+const navItems = ['Home', 'Projects', 'Team'];
 
 export default function Header(props: Props) {
   const { window, handlePageChange, currentPage } = props;
@@ -43,16 +43,16 @@ export default function Header(props: Props) {
 
 
   return (
-    <Box sx={{ display: 'flex'}}>
-      <AppBar position="static" style={{backgroundColor: "#ffffff"}} color="primary">
+    <Box sx={{ display: 'flex'}} >
+      <AppBar position="static" style={{backgroundColor: '#333'}} color="primary">
         <Grid container justifyContent="center">
-            <Grid item xs={12} xl={10}>
+            <Grid item  xs={12} sm={11} md={11} lg={10} xl={9}od  >
                 <Toolbar>
                 
                 <Typography
                     variant="h4"
                     component="div"
-                    color="primary"
+                    color="#fff"
                     sx={{ flexGrow: 1, display: { xs: 'block', sm: 'block' } }}
                 >
                     ECO-PLAN
@@ -61,7 +61,7 @@ export default function Header(props: Props) {
                     {navItems.map((item) => (
                     <Button 
                         key={item} 
-                        sx={{ color: 'primary', fontWeight: currentPage === item ? "bold" : "normal" }} 
+                        sx={{ color: '#fff', fontWeight: currentPage === item ? "bold" : "normal" }} 
                         onClick = {() => handlePageChange(item)}
                         >
                         {item}

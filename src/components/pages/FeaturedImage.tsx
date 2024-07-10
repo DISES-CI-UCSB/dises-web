@@ -53,28 +53,28 @@ export default function FeaturedImage(props: FeaturedImageProps) {
       />
       )}
       {post.title && (
-        <Grid container>
-        <Grid item md={6}>
-          <Box
-            sx={{
-              position: 'relative',
-              p: { xs: 3, md: 6 },
-              pr: { md: 0 },
-            }}
-          >
+        <Grid container justifyContent="center">
+          <Grid item xs={12} sm={11} md={11} lg={10} xl={9}>
+            <Box
+              sx={{
+                position: 'relative',
+                pt: { xs: 3, sm: 10 },
+               
+              }}
+            >
+              
+            <Typography component="h1" variant="h1" color="inherit" gutterBottom>
+              {post.title}
+            </Typography>
+              
+              
+            <Typography variant="h4" color="inherit" paragraph>
+              {post.description}
+            </Typography>
             
-          <Typography component="h1" variant="h1" color="inherit" gutterBottom>
-            {post.title}
-          </Typography>
-            
-            
-          <Typography variant="h4" color="inherit" paragraph>
-            {post.description}
-          </Typography>
-           
-            
-          </Box>
-        </Grid>
+              
+            </Box>
+          </Grid>
       </Grid>
       )}
       

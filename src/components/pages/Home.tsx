@@ -9,10 +9,10 @@ import disesGoals from '../../content/photos/figures/dises_goals.jpg'
 import workshop from '../../content/photos/workshop.jpg'
 
 import ucsbLogo from '../../content/photos/logos/ucsb_logo.png'
-import nsfLogo from '../../content/photos/logos/nsf_logo.png'
 import asuLogo from '../../content/photos/logos/asu_logo.png'
 import humboldtLogo from '../../content/photos/logos/humboldt_logo.png'
 import ciLogo from '../../content/photos/logos/ci_logo.png'
+import osuLogo from '../../content/photos/logos/osu_logo.png'
 
 
 export default function Home() {
@@ -25,7 +25,7 @@ export default function Home() {
         imageText: 'main image description'
       };
 
-      const logos = [ucsbLogo, asuLogo, ciLogo, humboldtLogo, nsfLogo]
+      const logos = [ucsbLogo, asuLogo, ciLogo, humboldtLogo, osuLogo]
 
     return (
         <Grid container direction="column">
@@ -48,9 +48,9 @@ export default function Home() {
                         <Box component="section" px={4}>
                             
                             <Typography variant='h6' my={2}>
-                            ECO-PLAN addresses the need to balance human livelihoods and biodiversity conservation in Colombia, one of the world's biodiversity hotspots. 
+                            ECO-PLAN addresses the need to balance human livelihoods and biodiversity conservation. 
                             As global change threatens ecosystems and species, we are developing integrated land use solutions through co-design, bridging the gap between scientists and decision-makers. 
-                            By partnering with the Alexander Von Humboldt Biological Resources Institute, we are co-designing scientific models of land use planning under future climate scenarios and improving decision-making capacity. 
+                            By partnering with the Alexander Von Humboldt Biological Resources Institute in Colombia, one of the world's biodiversity hotspots, we are co-designing scientific models of land use planning under future climate scenarios and improving decision-making capacity. 
                             Through workshops and iterative collaboration, we prioritize national land use strategies that protect biodiversity while meeting human needs, ensuring a sustainable future for Colombia's ecosystems and communities.
                             </Typography>
                             
@@ -132,7 +132,7 @@ export default function Home() {
                     <Box component="section" p = {4}>
                       <Typography align="left" variant="h6" width="100%">
                         This project is a collaboration between institutions and organizations across the United States and Colombia. 
-                        Collaborators include members from Conservation International USA, UC Santa Barbara, The Ohio State University, Arizona State University, and Alexander Von Humboldt Biological Resources Institute. 
+                        Collaborators include members from the University of California-Santa Barbara, Conservation International USA, Arizona State University, Alexander Von Humboldt Biological Resources Institute, and The Ohio State University. 
                       </Typography>
                     </Box>
                   </Grid>

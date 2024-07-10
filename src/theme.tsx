@@ -34,13 +34,13 @@ const theme = createTheme({
             fontSize: '2.5rem',
         },
         h3: {
-            fontSize: '2rem', 
+            fontSize: '2.25rem', 
         },
         h4: {
-            fontSize: '1.5rem', 
+            fontSize: '1.75rem', 
         },
         h5: {
-            fontSize: '1.25rem', 
+            fontSize: '1.5rem', 
             lineHeight: '1.6'
         },
         h6: {
