@@ -48,7 +48,7 @@ export default function Home() {
                         <Box component="section" px={4}>
                             
                             <Typography variant='h6' my={2}>
-                            ECO-PLAN addresses the need to balance human livelihoods and biodiversity conservation. 
+                            ECO-PLAN addresses the need to balance conservation and human livelihoods for sustainable futures. 
                             As global change threatens ecosystems and species, we are developing integrated land use solutions through co-design, bridging the gap between scientists and decision-makers. 
                             By partnering with the Alexander Von Humboldt Biological Resources Institute in Colombia, one of the world's biodiversity hotspots, we are co-designing scientific models of land use planning under future climate scenarios and improving decision-making capacity. 
                             Through workshops and iterative collaboration, we prioritize national land use strategies that protect biodiversity while meeting human needs, ensuring a sustainable future for Colombia's ecosystems and communities.
@@ -133,6 +133,7 @@ export default function Home() {
                       <Typography align="left" variant="h6" width="100%">
                         This project is a collaboration between institutions and organizations across the United States and Colombia. 
                         Collaborators include members from the University of California-Santa Barbara, Conservation International USA, Arizona State University, Alexander Von Humboldt Biological Resources Institute, and The Ohio State University. 
+                        Project funding comes from the U.S. National Science Foundation (NSF).
                       </Typography>
                     </Box>
                   </Grid>
