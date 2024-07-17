@@ -4,8 +4,6 @@ import { Grid, Box, Typography} from '@mui/material'
 import FeaturedImage from './FeaturedImage'
 
 import theme from '../../theme'
-import workshopUrl from '../../content/photos/workshop.jpg'
-import disesGoals from '../../content/photos/figures/dises_goals.jpg'
 import workshop from '../../content/photos/workshop.jpg'
 
 import ucsbLogo from '../../content/photos/logos/ucsb_logo.png'
@@ -18,9 +16,9 @@ import osuLogo from '../../content/photos/logos/osu_logo.png'
 export default function Home() {
 
     const featuredImage = {
-        title: 'ECO-PLAN',
+        title: 'ECOPLAN',
         description:
-          "Evaluating Co-Design for People, Land, and Nature",
+          "Evaluating Co-Design for People, Land Use, and Nature",
         image: 'https://www.muchbetteradventures.com/magazine/content/images/2023/12/GettyImages-610410404--1--1.jpg',
         imageText: 'main image description'
       };
@@ -48,7 +46,7 @@ export default function Home() {
                         <Box component="section" px={4}>
                             
                             <Typography variant='h6' my={2}>
-                            ECO-PLAN addresses the need to balance conservation and human livelihoods for sustainable futures. 
+                            ECOPLAN addresses the need to balance conservation and human livelihoods for sustainable futures. 
                             As global change threatens ecosystems and species, we are developing integrated land use solutions through co-design, bridging the gap between scientists and decision-makers. 
                             By partnering with the Alexander Von Humboldt Biological Resources Institute in Colombia, one of the world's biodiversity hotspots, we are co-designing scientific models of land use planning under future climate scenarios and improving decision-making capacity. 
                             Through workshops and iterative collaboration, we prioritize national land use strategies that protect biodiversity while meeting human needs, ensuring a sustainable future for Colombia's ecosystems and communities.
@@ -132,7 +130,7 @@ export default function Home() {
                     <Box component="section" p = {4}>
                       <Typography align="left" variant="h6" width="100%">
                         This project is a collaboration between institutions and organizations across the United States and Colombia. 
-                        Collaborators include members from the University of California-Santa Barbara, Conservation International USA, Arizona State University, Alexander Von Humboldt Biological Resources Institute, and The Ohio State University. 
+                        Collaborators include members from the University of California-Santa Barbara, Conservation International Moore Center for Science, Arizona State University, Alexander Von Humboldt Biological Resources Institute, and The Ohio State University. 
                         Project funding comes from the U.S. National Science Foundation (NSF).
                       </Typography>
                     </Box>
