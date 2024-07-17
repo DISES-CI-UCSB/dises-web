@@ -11,7 +11,7 @@ interface Props {
 }
 
 const drawerWidth = 240;
-const navItems = ['Home', 'Projects', 'Team'];
+const navItems = ['Home', 'Pillars', 'Team'];
 
 export default function Header(props: Props) {
   const { window, handlePageChange, currentPage } = props;
@@ -24,7 +24,7 @@ export default function Header(props: Props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        ECO-PLAN
+        DISES | ECOPLAN
       </Typography>
       <Divider />
       <List>
@@ -46,7 +46,7 @@ export default function Header(props: Props) {
     <Box sx={{ display: 'flex'}} >
       <AppBar position="static" style={{backgroundColor: '#333'}} color="primary">
         <Grid container justifyContent="center">
-            <Grid item  xs={12} sm={11} md={11} lg={10} xl={9}od  >
+            <Grid item  xs={12} sm={11} md={11} lg={10} xl={9}>
                 <Toolbar>
                 
                 <Typography
@@ -55,7 +55,7 @@ export default function Header(props: Props) {
                     color="#fff"
                     sx={{ flexGrow: 1, display: { xs: 'block', sm: 'block' } }}
                 >
-                    ECO-PLAN
+                    DISES | ECOPLAN
                 </Typography>
                 <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
                     {navItems.map((item) => (
