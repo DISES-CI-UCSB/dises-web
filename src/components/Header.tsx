@@ -50,10 +50,9 @@ export default function Header(props: Props) {
                 <Toolbar>
                 
                 <Typography
-                    variant="h4"
-                    component="div"
+                    variant="h5"
                     color="#fff"
-                    sx={{ flexGrow: 1, display: { xs: 'block', sm: 'block' } }}
+                    sx={{ flexGrow: 1, display: { xs: 'block' } }}
                 >
                     DISES | ECOPLAN
                 </Typography>
@@ -64,16 +63,18 @@ export default function Header(props: Props) {
                         sx={{ color: '#fff', fontWeight: currentPage === item ? "bold" : "normal" }} 
                         onClick = {() => handlePageChange(item)}
                         >
-                        {item}
+                          <Typography variant="h6">
+                          {item}
+                          </Typography>
+                        
                     </Button>
                     ))}
                 </Box>
                 <IconButton
-                    color="primary"
                     aria-label="open drawer"
                     edge="start"
                     onClick={handleDrawerToggle}
-                    sx={{ mr: 2, display: { sm: 'none' } }}
+                    sx={{ mr: 2, display: { sm: 'none' }, color: '#fff' }}
                 >
                     <MenuIcon />
                 </IconButton>

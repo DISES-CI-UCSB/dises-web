@@ -41,37 +41,6 @@ export default function Team() {
     const imageUrl = "https://www.nationalgeographic.com/content/dam/expeditions/destinations/south-america/land/Columbia-Connections-to-the-Land-and-the-Past/columbia-connections-land-past-hero.jpg"
     return (
         <Grid container direction="row" justifyContent="center">
-            {/* <Grid item xs={12}>
-                <Paper
-                    sx={{
-                        position: 'relative',
-                        maxHeight: '30vh',
-                        
-                        backgroundColor: 'grey.800',
-                        color: '#fff',
-                        mb: 5,
-                        backgroundSize: 'cover',
-                        backgroundRepeat: 'no-repeat',
-                        backgroundPosition: 'center',
-                        backgroundImage: `url(${imageUrl})`,
-                    }}
-                    >
-                    {<img style={{ display: 'none' }} src={imageUrl} alt={"image conveying teamwork"} />}
-                    <Box
-                        sx={{
-                        position: 'absolute',
-                        top: 0,
-                        bottom: 0,
-                        right: 0,
-                        left: 0,
-                        backgroundColor: 'rgba(0,0,0,.3)',
-                        }}
-                    />
-                    
-                    </Paper>
-            </Grid> */}
-
-            
             
             <Container maxWidth="xl" disableGutters={true}>
 
@@ -80,7 +49,7 @@ export default function Team() {
                 <Grid item py={4} alignContent="center">
                     <Grid container direction="row" justifyContent="space-evenly" alignItems="center" >
                         <Grid item xs={10} sm={6} md={6} lg={4} py={8} mt={4}>
-                            <Typography variant="h2" align="center">
+                            <Typography variant="h2" align="center" style={{fontWeight: 'bold'}}>
                                 Meet the DISES Team
                             </Typography>
                         </Grid>
@@ -99,28 +68,12 @@ export default function Team() {
                     
                     <Grid container direction="row" justifyContent="center" mb={3}>
 
-                        {/* <Grid item xs={11} >
-                            <Typography variant="h3" mb={2}>
-                            Leadership
-                            </Typography>
-                            
-                        </Grid> */}
                         {teamMembers.map((member) => (            
                             <MemberBio details={member} imagePath={teamPhotos[member.name]} />
                         ))}
-                        {/* {teamMembers.filter((member) => member.leadership).map((member) => (            
-                            <MemberBio details={member} imagePath={teamPhotos[member.name]} />
-                        ))} */}
+   
                     </Grid>
 
-                    {/* <Grid container direction="row" justifyContent="center">
-
-                        
-
-                        {teamMembers.filter((member) => !member.leadership).map((member) => (            
-                            <MemberBio details={member} imagePath={teamPhotos[member.name]} />
-                        ))}
-                    </Grid> */}
                 </Grid>
 
                 </Grid>

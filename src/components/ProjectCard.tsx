@@ -23,7 +23,7 @@ export default function ProjectCard(props: Props) {
             <Grid container direction= {odd ? "row" : "row-reverse"} spacing={4} mt={2} justifyContent="space-around" >
                 <Grid item xs={12} sm={9} md={7} lg={8}>
                     <Typography variant='h4' paragraph>{title}</Typography>
-                    <Typography variant='h6' paragraph>{description}</Typography>
+                    <Typography variant='h5' paragraph>{description}</Typography>
                 </Grid>
                 <Grid item xs={12} sm={8} md={5} lg={4} justifyContent="center" alignItems="center">
                     <Grid container>
