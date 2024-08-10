@@ -58,18 +58,6 @@ export default function MemberBio(props: Props) {
                 </Typography>
                 
                 
-                {/* description */}
-                {/* <Typography component="h6" variant="h6" mb={1} align="left">
-                    {details.description}
-                </Typography> */}
-                
-                {/* links  */}
-                {/* <Typography component="h6" variant="h6" align="left">
-                    {details.links.map((link) => (
-                        <Link key={link} href={link} underline="hover" target="_blank" rel="noreferrer" color="primary.light">{link}</Link>
-                        ))}
-                </Typography> */}
-                
                 
 
             </Grid>
@@ -107,12 +95,12 @@ export default function MemberBio(props: Props) {
                                 </Typography>
                                 
                                 {/* description */}
-                                <Typography component="h6" variant="h6" mb={1} px={3} align="left">
+                                <Typography component="h5" variant="h5" mb={1} px={3} align="left">
                                     {details.description}
                                 </Typography>
                                 
                                 {/* links  */}
-                                <Typography component="h6" variant="h6" px={3} align="left">
+                                <Typography component="h5" variant="h5" px={3} align="left">
                                     {details.links.map((link) => (
                                         <Link key={link} href={link} underline="hover" target="_blank" rel="noreferrer" color="primary.light">{link}</Link>
                                         ))}

@@ -1,11 +1,13 @@
 import { createTheme } from '@mui/material/styles';
 
+const fonts = "'Lato'";
+
 const theme = createTheme({
     palette: {
         primary: {
             main: '#0D2d23',
             dark: '#021C25',
-            light: '#b596e5'
+            light: '#fff'
         },
         // primary: {
         //     main: '#0398CE',
@@ -20,33 +22,45 @@ const theme = createTheme({
         },
         
     },
+    // components: {
+    //     MuiTypography: {
+    //         defaultProps: {
+    //             fontFamily: fonts
+    //         }
+    //     }
+    // },
     typography: {
-        fontFamily: [
-            'Oswald',
-            'Arial',
-            'sans-serif',
-        ].join(','),
+        fontFamily: fonts,
         h1: {
+            fontFamily: '"Montserrat"',
             fontSize: '3rem',
-            fontWeight: 'normal',
+            fontWeight: 600,
         },
         h2: {
+            fontFamily: '"Montserrat"',
             fontSize: '2.5rem',
+            fontWeight: 500
         },
         h3: {
+            fontFamily: '"Montserrat"',
             fontSize: '2.25rem', 
+            fontWeight: 500
         },
         h4: {
+            fontFamily: '"Lato"',
             fontSize: '1.75rem', 
         },
         h5: {
-            fontSize: '1.5rem', 
-            lineHeight: '1.6'
-        },
-        h6: {
+            fontFamily: '"Lato"',
             fontSize: '1.15rem', 
             lineHeight: '1.4'
         },
+        h6: {
+            fontFamily: '"Lato"',
+            fontSize: '1rem', 
+            lineHeight: '1.3'
+        },
+        
         
     },
     // breakpoints: {

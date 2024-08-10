@@ -11,6 +11,7 @@ interface FeaturedImageProps {
     image: string;
     imageText: string;
     title?: string;
+    credit: String;
   };
   main: boolean
 }
@@ -18,7 +19,7 @@ interface FeaturedImageProps {
 export default function FeaturedImage(props: FeaturedImageProps) {
   const { post, main } = props;
 
-  let height = "50vh"
+  let height = "60vh"
   if (!main) {
     height = "30vh"
   }
@@ -49,33 +50,44 @@ export default function FeaturedImage(props: FeaturedImageProps) {
           right: 0,
           left: 0,
           backgroundColor: 'rgba(0,0,0,.3)',
+          height: '100%',
+          flex: 1
         }}
       />
       )}
       {post.title && (
-        <Grid container justifyContent="center">
+        <div style={{display: 'flex', flexDirection: 'column', height: "100%"}}>
+          <div id="hi" style={{flex: 1}}>
+          <Grid container direction="row" justifyContent="center">
           <Grid item xs={12} sm={11} md={11} lg={10} xl={9}>
             <Box
               sx={{
                 position: 'relative',
                 pt: { xs: 3, sm: 10 },
-               
+                px: { xs: 1, sm: 0 },
+                flexGrow: 1, // This allows the Box to take up the remaining space
+                display: 'flex',
+                flexDirection: 'column',
               }}
             >
-              
-            <Typography component="h1" variant="h1" color="inherit" gutterBottom>
-              {post.title}
-            </Typography>
-              
-              
-            <Typography variant="h4" color="inherit" paragraph>
-              {post.description}
-            </Typography>
-            
-              
+              <Typography component="h1" variant="h1" color="inherit" gutterBottom>
+                {post.title}
+              </Typography>
+              <Typography variant="h4" color="inherit" paragraph>
+                {post.description}
+              </Typography>
             </Box>
           </Grid>
-      </Grid>
+          
+          </Grid>
+
+          </div>
+          <div style={{height: '1.25rem'}}>
+              <Typography align="right" pr={1} sx={{ fontSize: '0.75rem' }}>
+              {post.credit}
+            </Typography>
+          </div>
+        </div>
       )}
       
     </Paper>

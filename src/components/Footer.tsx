@@ -33,8 +33,8 @@ export default function Footer(props: Props) {
                                         src={nsfLogo} />
                                 </Grid>
                                 <Grid item xs={8} sm={4} md={3}>
-                                    <Typography paragraph><b>NSF Award Number</b>: 2401273</Typography>
-                                    <Typography>DISES: Decision Making for Land Use Planning under Future Climate
+                                    <Typography paragraph variant='h6'><b>NSF Award Number</b>: 2401273</Typography>
+                                    <Typography variant='h6'>DISES: Decision Making for Land Use Planning under Future Climate
                                     Scenarios through Engaged Research via Co-Design</Typography>
                                 </Grid>
                                 
@@ -63,11 +63,11 @@ export default function Footer(props: Props) {
                         <Grid item xs={5} sm={4}>   
                             <Grid container direction="row" justifyContent="center">
                                     <Grid item>
-                                        <Typography >UC Santa Barbara</Typography>
-                                        <Typography >3227 Cheadle Hall</Typography>
-                                        <Typography >Santa Barbara</Typography>
-                                        <Typography >CA  US  93106-0001</Typography>
-                                        <Typography >(805)893-4188</Typography>
+                                        <Typography variant='h6'>UC Santa Barbara</Typography>
+                                        <Typography variant='h6'>3227 Cheadle Hall</Typography>
+                                        <Typography variant='h6'>Santa Barbara</Typography>
+                                        <Typography variant='h6'>CA  US  93106-0001</Typography>
+                                        <Typography variant='h6'>(805)893-4188</Typography>
                                     </Grid>
 
                                 </Grid>
@@ -78,14 +78,14 @@ export default function Footer(props: Props) {
                         <Grid item xs={5} sm={4}>
                             <Grid container direction="row" justifyContent="center">
                                 <Grid item>
-                                    <Typography paragraph><b>Contact Us: </b></Typography>
-                                    <Typography>ecoplan.dises@gmail.com</Typography>
+                                    <Typography variant='h6' paragraph><b>Contact Us: </b></Typography>
+                                    <Typography variant='h6'>ecoplan.dises@gmail.com</Typography>
                                 </Grid>
                             </Grid>
                         </Grid>
                     </Grid>
                     <Box mt={2}>
-                        <Typography variant="body2" align="center">
+                        <Typography variant='h6' align="center">
                             &copy; {new Date().getFullYear()} ECO-PLAN. All rights reserved.
                         </Typography>
                     </Box>
