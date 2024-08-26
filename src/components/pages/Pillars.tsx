@@ -4,7 +4,6 @@ import { Grid, Typography, Container, Divider, Box, styled } from '@mui/material
 import landuseFig from '../../content/photos/landuse_fig.png'
 import codesignEval from '../../content/photos/eval_codesign.png'
 import codesignWorkshop from '../../content/photos/codesign_workshop.jpg'
-import ProjectCard from '../ProjectCard'
 
 const pillars = [
     
