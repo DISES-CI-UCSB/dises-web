@@ -4,6 +4,7 @@ import { Grid, Container } from '@mui/material'
 import Home from './pages/Home'
 import Team from './pages/Team'
 import Pillars from './pages/Pillars'
+import Data from './pages/Data'
 import Footer from './Footer'
 import Header from './Header'
 
@@ -18,6 +19,8 @@ export default function AppContainer() {
             return <Team />
         } else if (currentPage === 'Pillars'){
             return <Pillars />
+        } else if (currentPage === 'Data & Tools') {
+            return <Data />
         }
     }
 
