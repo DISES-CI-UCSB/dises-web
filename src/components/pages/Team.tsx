@@ -1,5 +1,6 @@
-import React from "react";
-import { Grid, Container, Paper, Box, Typography } from '@mui/material'
+import React, {useState} from "react";
+import { Grid, Container, Modal, Box, Card, CardContent, Typography, Link, IconButton } from '@mui/material'
+import CloseIcon from '@mui/icons-material/Close';
 
 // import all photos
 import amyfrazier from '../../content/photos/team/amyfrazier.jpg'
@@ -37,8 +38,9 @@ import MemberBio from "../MemberBio";
 
 
 export default function Team() {
+    const [openModal, setOpenModal] = useState(false)
+    const [modalInfo, setModalInfo] = useState({imagePath: "", name: "", description: "", links: [],})
 
-    const imageUrl = "https://www.nationalgeographic.com/content/dam/expeditions/destinations/south-america/land/Columbia-Connections-to-the-Land-and-the-Past/columbia-connections-land-past-hero.jpg"
     return (
         <Grid container direction="row" justifyContent="center">
             
@@ -69,7 +71,7 @@ export default function Team() {
                     <Grid container direction="row" justifyContent="center" mb={3}>
 
                         {teamMembers.map((member) => (            
-                            <MemberBio details={member} imagePath={teamPhotos[member.name]} />
+                            <MemberBio details={member} imagePath={teamPhotos[member.name]} openModal={setOpenModal} setModalInfo={setModalInfo} />
                         ))}
    
                     </Grid>
@@ -80,8 +82,68 @@ export default function Team() {
             
                 
             </Container>
-            
-            
+        
+            <Modal
+                open={openModal}
+                onClose={() => setOpenModal(false)}
+                // sx = {{
+                //     height: '100%',
+                //     overflow:'scroll',
+                //     position:'absolute',
+
+                // }}    
+            >
+                <Card sx={{minWidth: "300px",  maxHeight: "100%", overflow:'scroll', maxWidth: "1400px", width: "70vw", position: "absolute", top: "50%", left: "50%", transform: 'translate(-50%, -50%)'}} >
+
+                    <CardContent>
+                        {/* close */}
+                        <IconButton onClick={() => setOpenModal(false)}>
+                            <CloseIcon />
+                        </IconButton>
+                        <Grid container direction="row" justifyContent="space-around">
+                            {/* image */}  
+
+                            <Grid item xs={12} sm={9} md={7} lg={5} p="2vw" alignSelf="center" justifySelf="center">
+                                <Box 
+                                    component="img"
+                                    sx = {{
+                                        width:"100%",
+                                        height: "auto",
+                                        border: 1,
+                                        
+                                        }}
+                                    src = {modalInfo.imagePath} /> 
+                            </Grid>             
+                            <Grid item xs={12} sm={10} md={9} lg={7} p="2vw">
+                                
+                                {/* name */}
+                                <Typography component="h3" variant="h3" align="center" mb={4}>
+                                {modalInfo.name}
+                                </Typography>
+                                
+                                {/* description */}
+                                <Typography component="h5" variant="h5" mb={1} px={3} align="left">
+                                    {modalInfo.description}
+                                </Typography>
+                                
+                                {/* links  */}
+                                <Typography component="h5" variant="h5" px={3} align="left">
+                                    {modalInfo.links.map((link) => (
+                                        <Link key={link} href={link} underline="hover" target="_blank" rel="noreferrer" color="secondary.dark">{link}</Link>
+                                        ))}
+                                </Typography>
+
+                            </Grid>
+                                
+                                
+
+                        </Grid>
+
+                    </CardContent>
+                
+                </Card>
+
+            </Modal>
 
             
         </Grid>
