@@ -25,11 +25,11 @@ export default function Pillars() {
     return (
             
         <Grid container direction="row" justifyContent="center" alignItems="center">
-            <Grid item xs={12} sm={11} md={10} lg={9} xl={8} pt = {4}>
+            <Grid item xs={11} sm={11} md={10} lg={9} xl={8} pt = {4}>
                 <Typography variant="h3" mb={3} paragraph>Our Pillars</Typography>
             </Grid>
 
-            <Grid item xs={12} sm={11} md={10} lg={9} xl={8} pb= {8}>
+            <Grid item xs={11} sm={11} md={10} lg={9} xl={8} pb= {8}>
                 <Divider />
                 <Grid container direction= "row" spacing={4} mt={2} justifyContent="space-around" >
                     <Grid item xs={12} sm={9} md={7} lg={8}>
@@ -65,7 +65,7 @@ export default function Pillars() {
                 </Grid>
             </Grid>
 
-            <Grid item xs={12} sm={11} md={10} lg={9} xl={8} pb ={8}>
+            <Grid item xs={11} sm={11} md={10} lg={9} xl={8} pb ={8}>
                 <Divider />
                 <Grid container direction= "row-reverse" spacing={4} mt={2} justifyContent="space-around" >
                     
@@ -104,9 +104,9 @@ export default function Pillars() {
                 </Grid>
             </Grid>
 
-            <Grid item xs={12} sm={11} md={10} lg={9} xl={8} pb ={8}>
+            <Grid item xs={11} sm={11} md={10} lg={9} xl={8} pb ={8}>
                 <Divider />
-                <Grid container direction= "row" mt={6} columnSpacing={4} justifyContent="space-around" >
+                <Grid container direction= "row" mt={2} spacing={4} justifyContent="space-around" >
                     
                     <Grid item xs={12} sm={9} md={9} lg={7}>
                         <Typography variant='h4' paragraph>Evaluating the co-design process to improve decision-making capacity</Typography>
