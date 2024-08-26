@@ -49,7 +49,7 @@ export default function Footer(props: Props) {
                         </Grid>
                         <Grid item xs= {4} sm={3}>
                             <Typography variant='h6'>
-                                <Button variant='text' color='inherit' onClick={() => {setCurrentPage("Projects")}}>Projects</Button>
+                                <Button variant='text' color='inherit' onClick={() => {setCurrentPage("Pillars")}}>Pillars</Button>
                             </Typography>
                         </Grid>
                         <Grid item xs= {4} sm={3}>
