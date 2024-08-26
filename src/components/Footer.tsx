@@ -42,19 +42,60 @@ export default function Footer(props: Props) {
                         
                     <Divider sx={{ mt: 1, mb: 1, bgcolor:"#fff"}} />
                     <Grid container direction="row" justifyContent="space-around" textAlign="center">
-                        <Grid item xs= {4} sm={3}>
+                        <Grid item xs={3}>
                             <Typography variant='h6'>
-                                <Button variant='text' color='inherit' onClick={() => {setCurrentPage("Home")}}>Home</Button>
+                                <Button 
+                                    variant='text' 
+                                    color='inherit' 
+                                    onClick={() => {
+                                        setCurrentPage("Home")
+                                        window.scroll({top: 0, behavior: 'smooth'})
+                                        }}
+                                    >
+                                    Home
+                                </Button>
                             </Typography>
                         </Grid>
-                        <Grid item xs= {4} sm={3}>
+                        <Grid item xs={3}>
                             <Typography variant='h6'>
-                                <Button variant='text' color='inherit' onClick={() => {setCurrentPage("Pillars")}}>Pillars</Button>
+                                <Button 
+                                    variant='text' 
+                                    color='inherit' 
+                                    onClick={() => {
+                                        setCurrentPage("Pillars")
+                                        window.scroll({top: 0, behavior: 'smooth'})
+                                    }}
+                                    >
+                                    Pillars
+                                </Button>
                             </Typography>
                         </Grid>
-                        <Grid item xs= {4} sm={3}>
+                        <Grid item xs={3}>
                             <Typography variant='h6'>
-                                <Button variant='text' color='inherit' onClick={() => {setCurrentPage("Team")}}>Team</Button>
+                                <Button 
+                                    variant='text' 
+                                    color='inherit' 
+                                    onClick={() => {
+                                        setCurrentPage("Team")
+                                        window.scroll({top: 0, behavior: 'smooth'})
+                                        }}
+                                    >
+                                    Team
+                                </Button>
+                            </Typography>
+                        </Grid>
+                        <Grid item xs={3}>
+                            <Typography variant='h6'>
+                                <Button 
+                                    variant='text' 
+                                    color='inherit' 
+                                    onClick={() => {
+                                        setCurrentPage("Data & Tools")
+                                        window.scroll({top: 0, behavior: 'smooth'})
+                                        }}
+                                    >
+                                    Data & Tools
+                                </Button>
                             </Typography>
                         </Grid>
                     </Grid>
