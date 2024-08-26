@@ -11,7 +11,7 @@ interface Props {
 }
 
 const drawerWidth = 240;
-const navItems = ['Home', 'Pillars', 'Team'];
+const navItems = ['Home', 'Pillars', 'Team', 'Data & Tools'];
 
 export default function Header(props: Props) {
   const { window, handlePageChange, currentPage } = props;
@@ -29,7 +29,7 @@ export default function Header(props: Props) {
       <Divider />
       <List>
         {navItems.map((item) => (
-          <ListItem key={item} disablePadding>
+          <ListItem key={item}>
             <ListItemButton sx={{ textAlign: 'center' }} onClick = {() => handlePageChange(item)} >
               <ListItemText primary={item} />
             </ListItemButton>
