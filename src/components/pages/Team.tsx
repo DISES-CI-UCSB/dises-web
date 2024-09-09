@@ -86,12 +86,6 @@ export default function Team() {
             <Modal
                 open={openModal}
                 onClose={() => setOpenModal(false)}
-                // sx = {{
-                //     height: '100%',
-                //     overflow:'scroll',
-                //     position:'absolute',
-
-                // }}    
             >
                 <Card sx={{minWidth: "300px",  maxHeight: "100%", overflow:'scroll', maxWidth: "1400px", width: "70vw", position: "absolute", top: "50%", left: "50%", transform: 'translate(-50%, -50%)'}} >
 
