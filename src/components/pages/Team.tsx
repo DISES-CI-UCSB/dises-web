@@ -16,6 +16,7 @@ import patrickroehrdanz from "../../content/photos/team/patrickroehrdanz.jpg"
 import gweniacona from "../../content/photos/team/gweniacona.jpg"
 import elkinnogueraurbano from "../../content/photos/team/elkinnogueraurbano.jpg"
 import susanarodriguezburitica from "../../content/photos/team/susanarodriguezburitica.jpg"
+import daliamaeroff from "../../content/photos/team/daliamaeroff.jpg"
 
 const teamPhotos = {
     "Amy Frazier": amyfrazier,
@@ -30,7 +31,8 @@ const teamPhotos = {
     "Lei Song": leisong,
     "Gabriel Antunes Daldegan": gabrieldaldegan,
     "Elkin Noguera-Urbano": elkinnogueraurbano,
-    "Susana Rodriguez-Buritica": susanarodriguezburitica
+    "Susana Rodriguez-Buritica": susanarodriguezburitica,
+    "Dalia Maeroff": daliamaeroff
 }
 
 import teamMembers from '../../content/teamInfo.json'

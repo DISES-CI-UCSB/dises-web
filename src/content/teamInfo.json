@@ -59,7 +59,7 @@
         "name": "Elkin Noguera-Urbano",
         "title": "Scientific Researcher",
         "organization": "Instituto Humboldt",
-        "description": "More details coming soon!",
+        "description": "Elkin A. Noguera-Urbano works in the Instituto de Investigación de Recursos Biológicos Alexander von Humboldt from Colombia, leading the Conservation Priorities team. Elkin has a Ph.D. in Sciences, topic Biogeography, from the Universidad Nacional Autónoma de México. His research has been focused on Neotropical Biogeography, Biodiversity Informatics, Systematics Conservation Planning, and Mammalogy. Elkin provides data and scientific expertise to support the DISES project in Colombia.",
         "image": "elkinnogueraurbano.jpg",
         "links": [],
         "leadership": false
@@ -71,6 +71,15 @@
         "description": "Wenxin Yang is a PhD student of Geography at the University of California, Santa Barbara. Her research interests are leveraging geospatial analytics for biodiversity conservation and open spatial data science.",
         "image": "wenxinyang.jpg",
         "links": ["https://wxyang007.github.io/"],
+        "leadership": false
+    },
+    {
+        "name": "Dalia Maeroff",
+        "title": "PhD Student",
+        "organization": "Arizona State University",
+        "description": "Dalia Maeroff is an Environmental Social Science PhD student at Arizona State University. Her research centers on co-design, community-based participatory research, and actionable science in various global contexts. With a background in the learning sciences, cognitive psychology, and journalism, she is also interested in science communication and education. Her role on the DISES project is to assess and evaluate the co-design process to improve future projects.",
+        "image": "daliamaeroff.jpg",
+        "links": [],
         "leadership": false
     },
     {
