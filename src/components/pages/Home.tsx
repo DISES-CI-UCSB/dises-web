@@ -77,7 +77,7 @@ export default function Home() {
                                 
                                 <Typography variant='h5' my={2}>
                                   Co-design refers to a collaborative approach to decision-making where designers, stakeholders, and end-users work together throughout the design process to create solutions that meet everyone's needs and expectations. 
-                                  It emphasizes inclusivity, mutual learning, and shared decision-making among participants.
+                                  It emphasizes mutual learning, and shared decision-making among participants.
                                     
                                   Co-design involves various activities such as workshops, brainstorming sessions, prototyping, and feedback loops to ensure that diverse perspectives are considered and integrated into the final design. 
                                   This approach aims to produce more effective and user-centered solutions by leveraging the collective knowledge and creativity of all involved parties.
