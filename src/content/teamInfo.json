@@ -83,6 +83,15 @@
         "leadership": false
     },
     {
+        "name": "Kevin Ramos",
+        "title": "PhD Student",
+        "organization": "UC Santa Barbara",
+        "description": "More details coming soon!",
+        "image": "kevinramos.jpg",
+        "links": [],
+        "leadership": false
+    },
+    {
         "name": "Nick McManus",
         "title": "Associate Scientist",
         "organization": "Conservation International",
@@ -110,12 +119,30 @@
         "leadership": false
     },
     {
+        "name": "Will Overbye-Thompson",
+        "title": "GIS Developer",
+        "organization": "UC Santa Barbara",
+        "description": "More details coming soon!",
+        "image": "willoverbyethompson.jpg",
+        "links": [],
+        "leadership": false
+    },
+    {
         "name": "Lei Song",
         "title": "Postdoctoral Research Scholar",
         "organization": "UC Santa Barbara",
         "description": "Lei Song is a Postdoctoral Scholar at the University of California, Santa Barbara. She studies species conservation and human-wildlife relations using remote sensing, GIS, and statistical modeling. Lei’s role on the DISES project focuses on land use modeling.",
         "image": "leisong.jpg",
         "links": ["https://lleisong.github.io/website/"],
+        "leadership": false
+    },
+    {
+        "name": "Caitlin Hawley",
+        "title": "Postdoctoral Research Scholar",
+        "organization": "Arizona State University",
+        "description": "More details coming soon!",
+        "image": "caitlinhawley.jpg",
+        "links": [],
         "leadership": false
     },
     {

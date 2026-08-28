@@ -37,16 +37,20 @@ export default function MemberBio(props: Props) {
                 }}
                 >
                 {/* image */}               
-                <Box 
-                component="img"
-                mb = {2}
-                sx = {{
-                    width:"100%",
-                    height: "auto",
-                    borderRadius: "50%",
-                    
+                <Box
+                    component="img"
+                    src={imagePath}
+                    alt={details.name}
+                    mb={2}
+                    sx={{
+                        width: '100%',
+                        aspectRatio: '1 / 1',
+                        objectFit: 'cover',
+                        objectPosition: 'center',
+                        borderRadius: '50%',
+                        display: 'block',
                     }}
-                src = {imagePath} />       
+                    />      
                 
                 {/* name */}
                 <Typography component="h4" variant="h4" align="center" mb={2}>

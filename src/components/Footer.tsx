@@ -14,10 +14,11 @@ export default function Footer(props: Props) {
             sx={{
                 height: 'auto',
                 width: '100%',
-                backgroundColor: '#333', // Adjust background color as needed
-                color: '#fff', // Text color
-                padding: '20px', // Padding around content
-                marginTop: 'auto', // Pushes footer to the bottom of the page
+                backgroundColor: '#ffffff',
+                color: '#3d5c54',
+                borderTop: '1px solid #e2e8e6',
+                padding: '20px',
+                marginTop: 'auto',
             }}
         >
             <Grid container direction="row" width="100%" justifyContent="center">
@@ -40,7 +41,7 @@ export default function Footer(props: Props) {
                                 
                             </Grid>
                         
-                    <Divider sx={{ mt: 1, mb: 1, bgcolor:"#fff"}} />
+                    <Divider sx={{ mt: 1, mb: 1, bgcolor: '#c5d4cf' }} />
                     <Grid container direction="row" justifyContent="space-around" textAlign="center">
                         <Grid item xs={3}>
                             <Typography variant='h6'>
@@ -99,7 +100,7 @@ export default function Footer(props: Props) {
                             </Typography>
                         </Grid>
                     </Grid>
-                    <Divider sx={{ mt: 1, mb: 2, bgcolor:"#fff"}} />
+                    <Divider sx={{ mt: 1, mb: 2, bgcolor: '#c5d4cf' }} />
                     <Grid container spacing={2} direction="row" justifyContent="space-between" alignItems="start">
                         <Grid item xs={5} sm={4}>   
                             <Grid container direction="row" justifyContent="center">

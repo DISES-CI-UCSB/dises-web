@@ -17,6 +17,9 @@ import gweniacona from "../../content/photos/team/gweniacona.jpg"
 import elkinnogueraurbano from "../../content/photos/team/elkinnogueraurbano.jpg"
 import susanarodriguezburitica from "../../content/photos/team/susanarodriguezburitica.jpg"
 import daliamaeroff from "../../content/photos/team/daliamaeroff.jpg"
+import kevinramos from "../../content/photos/team/kevinramos.jpg"
+import caitlinhawley from "../../content/photos/team/caitlinhawley.jpg"
+import willoverbyethompson from "../../content/photos/team/willoverbyethompson.jpg"
 
 const teamPhotos = {
     "Amy Frazier": amyfrazier,
@@ -32,7 +35,10 @@ const teamPhotos = {
     "Gabriel Antunes Daldegan": gabrieldaldegan,
     "Elkin Noguera-Urbano": elkinnogueraurbano,
     "Susana Rodriguez-Buritica": susanarodriguezburitica,
-    "Dalia Maeroff": daliamaeroff
+    "Dalia Maeroff": daliamaeroff,
+    "Caitlin Hawley": caitlinhawley,
+    "Kevin Ramos": kevinramos,
+    "Will Overbye-Thompson": willoverbyethompson
 }
 
 import teamMembers from '../../content/teamInfo.json'
