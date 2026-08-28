@@ -86,7 +86,7 @@
         "name": "Kevin Ramos",
         "title": "PhD Student",
         "organization": "UC Santa Barbara",
-        "description": "More details coming soon!",
+        "description": "Kevin is a geography PhD student at the University of California, Santa Barbara. His research focus is in GIScience, geospatial modeling, and spatial data science particularly within conservation decision making. His role in the DISES project is to streamline prioritization models that will help assist with regional and national conservation decision making.",
         "image": "kevinramos.jpg",
         "links": [],
         "leadership": false
@@ -106,6 +106,15 @@
         "organization": "Conservation International",
         "description": "Joana is an Associate Scientist in Climate-Smart Planning at the Moore Center for Science. Specializing in sustainable land use, her expertise lies in Integrated Spatial Planning for conserving and restoring natural areas. Her work focuses on crafting analytical frameworks to maximize benefits for biodiversity and Nature's Contribution to People (NCP), while also considering socio-economic outcomes. Joana ensures her contributions are forward-thinking and impactful by incorporating projections of Global Changes to navigate evolving environmental challenges.",
         "image": "joanakrieger.jpg",
+        "links": [],
+        "leadership": false
+    },
+    {
+        "name": "Max Write",
+        "title": "Associate Scientist",
+        "organization": "Conservation International",
+        "description": "Max Wright is a geographer in the Moore Center for Science and Solutions at Conservation International. His background is in remote sensing and geospatial analysis, and over the past 14 years has supported a wide range of conservation efforts including REDD+ projects, spatial planning and priority setting at multiple scales, natural capital accounting,  and implementation of nature-based solutions for climate and people. He holds a B.A. in Geography and an M.A. in Geographic Information Science from Clark University. He provides spatial modeling and stakeholder engagement support to the DISES project.",
+        "image": "maxwrite.jpg",
         "links": [],
         "leadership": false
     },

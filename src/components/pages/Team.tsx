@@ -20,6 +20,7 @@ import daliamaeroff from "../../content/photos/team/daliamaeroff.jpg"
 import kevinramos from "../../content/photos/team/kevinramos.jpg"
 import caitlinhawley from "../../content/photos/team/caitlinhawley.jpg"
 import willoverbyethompson from "../../content/photos/team/willoverbyethompson.jpg"
+import maxwrite from "../../content/photos/team/maxwrite.jpg"
 
 const teamPhotos = {
     "Amy Frazier": amyfrazier,
@@ -38,7 +39,8 @@ const teamPhotos = {
     "Dalia Maeroff": daliamaeroff,
     "Caitlin Hawley": caitlinhawley,
     "Kevin Ramos": kevinramos,
-    "Will Overbye-Thompson": willoverbyethompson
+    "Will Overbye-Thompson": willoverbyethompson,
+    "Max Write": maxwrite
 }
 
 import teamMembers from '../../content/teamInfo.json'
