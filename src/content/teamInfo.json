@@ -131,7 +131,7 @@
         "name": "Will Overbye-Thompson",
         "title": "GIS Developer",
         "organization": "UC Santa Barbara",
-        "description": "More details coming soon!",
+        "description": "Will Overbye-Thompson is a GIS Developer at the Center for Spatial Studies, building web applications for environmental research, conservation planning, and public safety. He leads front-end development on the Dangermond Preserve Digital Catalog (integrating environmental data sources for ecological research), the Colombian Conservation Decision Support Tool (systematic planning application with pre-calculated scenario matching), and ACTIVE SB (bicycle/pedestrian safety analytics for Santa Barbara County). Responsibilities include full-stack development with React/TypeScript, Node.js/GraphQL, PostgreSQL/PostGIS, and ArcGIS integration, as well as UI design based on stakeholder feedback, performance optimization, and establishing testing infrastructure. Work focuses on building tiered-access systems serving diverse users from researchers to regional authorities.",
         "image": "willoverbyethompson.jpg",
         "links": [],
         "leadership": false
