@@ -18,7 +18,7 @@ import elkinnogueraurbano from "../../content/photos/team/elkinnogueraurbano.jpg
 import susanarodriguezburitica from "../../content/photos/team/susanarodriguezburitica.jpg"
 import daliamaeroff from "../../content/photos/team/daliamaeroff.jpg"
 import kevinramos from "../../content/photos/team/kevinramos.jpg"
-import caitlinhawley from "../../content/photos/team/caitlinhawley.jpg"
+import caitlinhawley from "../../content/photos/team/caitlinhawley.png"
 import willoverbyethompson from "../../content/photos/team/willoverbyethompson.jpg"
 import maxwrite from "../../content/photos/team/maxwrite.jpg"
 
